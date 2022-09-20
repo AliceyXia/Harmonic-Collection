@@ -64,3 +64,7 @@ div {
         background-color: transparent;
         font-size: 100%;
       }
+
+img {
+    margin: 10px;
+}
