@@ -69,3 +69,45 @@ img {
     margin: 10px;
 }
 
+@media screen and (min-width:751px){
+h1{
+    font-size: 350%;
+}
+h2{
+    font-size: 250%;
+}
+h3{
+    font-size: 150%;
+}
+h5{
+    font-size: 100%;
+}
+p{
+    font-size: 120%;
+}
+ol.c{
+    font-size: 180%;
+}
+}
+
+@media screen and (max-width:750px){
+    h1{
+        font-size: 230%;
+    }
+    h2{
+        font-size: 160%;
+    } 
+    h3{
+        font-size: 100%;
+    }
+    h5{
+        font-size: 60%;
+    }
+    p{
+        font-size: 80%;
+    }
+    ol.c{
+        font-size: 120%;
+    }
+
+}
