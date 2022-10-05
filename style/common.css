@@ -75,6 +75,24 @@ img {
 
 }
 
+div.b {
+    transform: rotate(90deg);
+    margin: 0em 50em 0em -5em;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  transition: height 2s;
+  transition: transform 2s;
+}
+
+div:hover {
+  height: 100px;
+  transform: scale(10%);
+}
+
 @media screen and (min-width:741px){
 h1{
     font-size: 280%;
