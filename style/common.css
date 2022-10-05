@@ -59,7 +59,7 @@ ol.c {
     font-family: 'Courier New', Courier, monospace;
     color: rgb(40, 119, 123);
     font-size: 170%;
-    margin: 5em;
+    margin: 4.5em;
     background-color:transparent ;
       }
 
@@ -108,7 +108,7 @@ li{
         font-size: 130%;
     } 
     h3{
-        font-size: 30%;
+        font-size: 20%;
     }
     h5{
         font-size: 60%;
