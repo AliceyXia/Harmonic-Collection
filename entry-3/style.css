@@ -60,16 +60,69 @@ ol.c {
 
 div.a {
         border: 0px solid white;
-        margin: 40px 20px 20px 20px;
+        margin: 40px 0px 20px 40px;
         background-color: transparent;
-        font-size: 100%;
+        font-size: 80%;
       }
+
+div.b{
+    border: 0px solid white;
+    margin: -20px 0px 0px 40px;
+    background-color: transparent;
+    font-size: 80%;
+}   
 
 img {
     margin: 10px;
 }
 
 img{ 
-    width: 100%;
+    width:95%;
     height:auto;
+    border: .5em double white;
  }
+
+
+
+ @media screen and (min-width:751px){
+    h1{
+        font-size: 350%;
+    }
+    h2{
+        font-size: 250%;
+    }
+    h3{
+        font-size: 150%;
+    }
+    h5{
+        font-size: 100%;
+    }
+    p{
+        font-size: 120%;
+    }
+    ol.c{
+        font-size: 180%;
+    }
+    }
+    
+    @media screen and (max-width:750px){
+        h1{
+            font-size: 230%;
+        }
+        h2{
+            font-size: 160%;
+        } 
+        h3{
+            font-size: 100%;
+        }
+        h5{
+            font-size: 60%;
+        }
+        p{
+            font-size: 80%;
+        }
+        ol.c{
+            font-size: 120%;
+        }
+    
+    }
