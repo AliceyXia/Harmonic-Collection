@@ -1,90 +1,102 @@
 body{ 
-    background-color: black;
+    background-color: rgb(248, 246, 239);
 }
 
 h1 {
-    color:white;
+    color:rgb(40, 119, 123);
     font-family:'Courier New', Courier, monospace ;
     font-size: 350%;
+    margin: 1em;
 }
 
 h2 {
-    color: white;
+    color: rgb(40, 119, 123);
     font-family: 'Courier New', Courier, monospace;
     font-size: 200%;
+    margin: 1em;
 }
 
 h3 {
-    color: white;
+    color: rgb(40, 119, 123);
     font-family: 'Courier New', Courier, monospace;
     font-size: 150%;
+    margin: 1em;
 }
 
 h5 {
-    color: gray;
+    color: rgb(192, 154, 40);
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
+    margin: 2em;
 }
 
 p {
-    color: white;
+    color: rgb(192, 154, 40);
     font-family:'Courier New', Courier, monospace;
-    font-size: 120%;
+    font-size: 110%;
+    margin: 2.5em;
 }
 
 a:link {
-    color: white;
+    color: rgb(192, 154, 40);
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:visited {
-    color:white;
+    color:rgb(80, 56, 29) ;
     background-color: transparent;
     text-decoration:underline;
 }
 
 a:hover {
-    color:grey;
+    color:rgb(192, 154, 40);
     background-color: transparent;
-     text-decoration: wavy;
+     text-decoration:underline;
+    }
+
+a:active {
+    text-decoration: underline;
+     }
+     
+hr{
+        height: 1px;
+        background-color:transparent;
+        border-top: 1px dashed rgb(192, 154, 40) ;  
     }
 
 ol.c {
     list-style-type: upper-roman;
     font-family: 'Courier New', Courier, monospace;
-    color: white;
-    font-size: 120%;
-    margin: 10px 10px 10px 10px;
+    color: rgb(40, 119, 123);
+    font-size: 200%;
+    margin: 5em;
       }
 
 div.a {
         border: 0px solid white;
-        margin: 40px 0px 20px 40px;
+        margin: 40px 0px 20px 0px;
         background-color: transparent;
         font-size: 80%;
       }
 
 div.b{
     border: 0px solid white;
-    margin: -20px 0px 0px 40px;
+    margin: -20px 0px 0px 0px;
     background-color: transparent;
     font-size: 80%;
 }   
-
-img {
-    margin: 10px;
-}
-
-img{ 
-    width:95%;
-    height:auto;
-    border: .5em double white;
+ 
+ img{ 
+    width: 75%;
+    height:75%;
+    margin: 18px;
+    border: .5em outset rgb(80, 56, 29);
  }
 
 
 
- @media screen and (min-width:751px){
+ @media screen and (min-width:841px){
     h1{
         font-size: 350%;
     }
@@ -98,16 +110,17 @@ img{
         font-size: 100%;
     }
     p{
-        font-size: 120%;
+        font-size: 110%;
     }
     ol.c{
         font-size: 180%;
     }
+ 
     }
     
-    @media screen and (max-width:750px){
+    @media screen and (max-width:840px){
         h1{
-            font-size: 230%;
+            font-size: 180%;
         }
         h2{
             font-size: 160%;
@@ -122,7 +135,12 @@ img{
             font-size: 80%;
         }
         ol.c{
-            font-size: 120%;
+            font-size: 100%;
         }
-    
+        li{
+            font-size: 100%; 
+        }
     }
+
+
+    /* COLOR USED: light yellowbrown-- rgb(248, 246, 239),light brown--rgb(192, 154, 40),brown--rgb(80, 56, 29),blue--rgb(40, 119, 123)  */

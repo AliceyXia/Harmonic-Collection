@@ -1,65 +1,70 @@
 body{ 
-    background-color: black;
+    background-color: rgb(248, 246, 239);
 }
 
 h1 {
-    color:white;
+    color:rgb(192, 154, 40);
     font-family:'Courier New', Courier, monospace ;
     font-size: 350%;
 }
 
 h2 {
-    color: white;
+    color: rgb(192, 154, 40);
     font-family: 'Courier New', Courier, monospace;
     font-size: 250%;
 }
 
 h3 {
-    color: white;
+    color: rgb(192, 154, 40);
     font-family: 'Courier New', Courier, monospace;
     font-size: 150%;
 }
 
 h5 {
-    color: gray;
+    color:rgb(80, 56, 29);
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
 }
 
-p {
+/* p {
     color: white;
     font-family:'Courier New', Courier, monospace;
     font-size: 120%;
-}
+} */
 
 a:link {
-    color: white;
+    color: rgb(40, 119, 123);
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:visited {
-    color:white;
+    color: rgb(40, 119, 123);
     background-color: transparent;
     text-decoration:underline;
 }
 
 a:hover {
-    color:grey;
+    color:rgb(63, 44, 22);
     background-color: transparent;
-     text-decoration: wavy;
+     text-decoration:underline;
     }
+
+a:active {
+    text-decoration: underline;
+     }
 
 ol.c {
     list-style-type: upper-roman;
     font-family: 'Courier New', Courier, monospace;
-    color: white;
-    font-size: 180%;
+    color: rgb(40, 119, 123);
+    font-size: 170%;
     margin: 5em;
+    background-color:transparent ;
       }
 
 div.a {
-        border: 0px solid white;
+        border: 0px solid rgb(40, 119, 123);
         margin: 40px 20px 20px 20px;
         background-color: transparent;
         font-size: 100%;
@@ -70,15 +75,15 @@ img {
 
 }
 
-@media screen and (min-width:751px){
+@media screen and (min-width:741px){
 h1{
-    font-size: 350%;
+    font-size: 280%;
 }
 h2{
-    font-size: 250%;
+    font-size: 200%;
 }
 h3{
-    font-size: 150%;
+    font-size: 100%;
 }
 h5{
     font-size: 100%;
@@ -87,19 +92,23 @@ p{
     font-size: 120%;
 }
 ol.c{
-    font-size: 180%;
+    font-size: 170%;
 }
+li{
+    font-size: 80%;
 }
 
-@media screen and (max-width:750px){
+}
+
+@media screen and (max-width:740px){
     h1{
-        font-size: 230%;
+        font-size: 100%;
     }
     h2{
-        font-size: 160%;
+        font-size: 130%;
     } 
     h3{
-        font-size: 100%;
+        font-size: 30%;
     }
     h5{
         font-size: 60%;
@@ -108,7 +117,9 @@ ol.c{
         font-size: 80%;
     }
     ol.c{
-        font-size: 120%;
+        font-size: 75%;
     }
-
+    li{
+        font-size: 55%; 
+    }
 }
