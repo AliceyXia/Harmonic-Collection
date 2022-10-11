@@ -68,6 +68,7 @@ div.a {
         margin: 40px 20px 20px 20px;
         background-color: transparent;
         font-size: 100%;
+        
       }
 
 img {
@@ -78,17 +79,14 @@ img {
 div.b {
     transform: rotate(90deg);
     margin: 0em 50em 0em -5em;
-}
-
-div{
-  width: 100px;
+    width: 100px;
   height: 100px;
   background: transparent;
   transition: height 2s;
   transition: transform 2s;
 }
 
-div:hover {
+div.b:hover {
   height: 100px;
   transform: scale(10%);
 }
@@ -140,4 +138,20 @@ li{
     li{
         font-size: 55%; 
     }
+}
+body,html {
+margin: 0;
+background-image: url("../file/imgs/texture.png");
+height: 100%; 
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+.flex-box{
+    display:flex
+}
+.flex-box>div{
+    margin: 2em
 }

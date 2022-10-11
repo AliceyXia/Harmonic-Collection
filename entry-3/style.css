@@ -73,7 +73,7 @@ ol.c {
     margin: 5em;
       }
 
-div.a {
+/* div.a {
         border: 0px solid white;
         margin: 40px 0px 20px 0px;
         background-color: transparent;
@@ -85,12 +85,13 @@ div.b{
     margin: -20px 0px 0px 0px;
     background-color: transparent;
     font-size: 80%;
-}   
+}    */
  
- img{ 
-    width: 75%;
-    height:75%;
-    margin: 18px;
+
+img{ 
+    width: 60%;
+    height:60%;
+    margin: .5em;
     border: .5em outset rgb(80, 56, 29);
  }
 
@@ -132,7 +133,7 @@ div.b{
             font-size: 60%;
         }
         p{
-            font-size: 80%;
+            font-size: 70%;
         }
         ol.c{
             font-size: 100%;
@@ -142,5 +143,21 @@ div.b{
         }
     }
 
+    body,html {
+        margin: 0;
+        background-image: url("../file/imgs/texture.png");
+        height: 100%; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        }
 
+        .flex-box{
+            display:flex
+        }
+       .flex-box>div{
+          margin: 2em 5em 0em 0em;
+           font-size: 95%;
+       }
     /* COLOR USED: light yellowbrown-- rgb(248, 246, 239),light brown--rgb(192, 154, 40),brown--rgb(80, 56, 29),blue--rgb(40, 119, 123)  */
