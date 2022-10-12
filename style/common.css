@@ -150,7 +150,8 @@ background-attachment: fixed;
 }
 
 .flex-box{
-    display:flex
+    display:flex;
+    justify-content: space-between;
 }
 .flex-box>div{
     margin: 2em

@@ -154,7 +154,8 @@ img{
         }
 
         .flex-box{
-            display:flex
+            display:flex;
+            justify-content: space-between;
         }
        .flex-box>div{
           margin: 2em 5em 0em 0em;
