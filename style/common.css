@@ -58,7 +58,7 @@ ol.c {
     list-style-type: upper-roman;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(40, 119, 123);
-    font-size: 170%;
+    font-size: 200%;
     margin: 4.5em;
     background-color:transparent ;
       }
@@ -108,7 +108,7 @@ p{
     font-size: 120%;
 }
 ol.c{
-    font-size: 170%;
+    font-size: 180%;
 }
 li{
     font-size: 80%;
