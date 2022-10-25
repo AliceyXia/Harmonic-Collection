@@ -183,12 +183,12 @@ div.gallery {
   .responsive {
     padding: 0 3px;
     float: left;
-    width: 19%;
+    width: 19.999%;
   }
   
   @media only screen and (max-width: 800px) {
     .responsive {
-      width: 50%;
+      width: 49.999%;
     }
   }
   
