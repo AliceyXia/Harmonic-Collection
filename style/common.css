@@ -71,10 +71,6 @@ div.a {
         
       }
 
-img {
-    margin: 10px;
-
-}
 
 div.b {
     transform: rotate(90deg);
@@ -156,3 +152,54 @@ background-attachment: fixed;
 .flex-box>div{
     margin: 2em
 }
+
+div.gallery {
+    border: 0em solid rgb(40, 119, 123);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 2em;
+  }
+  
+  div.gallery:hover {
+    border: 0.3em solid rgb(80, 56, 29);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 1em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace ;
+    font-size:85%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 3px;
+    float: left;
+    width: 25%;
+  }
+  
+  @media only screen and (max-width: 1030px) {
+    .responsive {
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
