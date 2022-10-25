@@ -178,6 +178,9 @@ div.b{
         margin: 0.3em;
         vertical-align: middle;
         width: 100%;
+        border: 0.1em solid rgb(40, 119, 123);
+        border-radius: 8px;
+        
       }
       
       @media screen and (max-width: 800px) {
