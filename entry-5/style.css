@@ -85,21 +85,21 @@ div.b{
     margin: -20px 0px 0px 0px;
     background-color: transparent;
     font-size: 80%;
-}   
-  */
+}    */
+ 
 
- /* img{ 
+img{ 
     width: 60%;
     height:60%;
     margin: .5em;
     border: .5em outset rgb(80, 56, 29);
- } */
+ }
 
 
 
  @media screen and (min-width:841px){
     h1{
-        font-size: 400%;
+        font-size: 350%;
     }
     h2{
         font-size: 250%;
@@ -116,6 +116,7 @@ div.b{
     ol.c{
         font-size: 180%;
     }
+ 
     }
     
     @media screen and (max-width:840px){
@@ -135,12 +136,11 @@ div.b{
             font-size: 70%;
         }
         ol.c{
-            font-size: 80%;
+            font-size: 100%;
         }
         li{
-            font-size: 80%; 
+            font-size: 100%; 
         }
-
     }
 
     body,html {
@@ -152,64 +152,48 @@ div.b{
         background-attachment: fixed;
         
         }
-    .flex-box{
-          display:flex;
-          justify-content: space-between;
-      }
-     .flex-box>div{
-        margin: 2em 2em 0em 0em;
-         font-size: 100%;
-     }
 
-     .row {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0.3em;
-
-      }
-      
-      .column {
-        flex: 15%;
-        max-width: 20%;
-        margin:0.3em;
-      }
-      
-      .column img {
-        margin: 0.3em;
-        vertical-align: middle;
-        width: 100%;
-        border: 0.1em solid rgb(40, 119, 123);
-        border-radius: 8px;
-        
-      }
-      
-      @media screen and (max-width: 800px) {
-        .column {
-          flex: 30%;
-          max-width: 50%;
+        .flex-box{
+            display:flex;
+            justify-content: space-between;
         }
-      }
-      
-      @media screen and (max-width: 600px) {
-        .column {
-          flex: 100%;
-          max-width: 100%;
-        }
-      }
+       .flex-box>div{
+          margin: 2em 2em 0em 0em;
+           font-size: 100%;
+       }
 
-      * {
-        box-sizing: border-box;
-      }
-      
-      .zoom {
-        transition: transform .2s;
-        margin: 0 auto;
-      }
-      
-      .zoom:hover {
-        -ms-transform: scale(1.2); 
-        -webkit-transform: scale(1.2); 
-        transform: scale(1.2); 
-      }
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1210px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+.dot {
+  cursor: pointer;
+  height: 17px;
+  width: 17px;
+  margin: 0 0.3em;
+  background-color: rgba(192, 154, 40, 0.54);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgb(80, 56, 29);
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
 
     /* COLOR USED: light yellowbrown-- rgb(248, 246, 239),light brown--rgb(192, 154, 40),brown--rgb(80, 56, 29),blue--rgb(40, 119, 123)  */
