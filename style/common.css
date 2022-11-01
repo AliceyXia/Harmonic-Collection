@@ -158,12 +158,12 @@ div.gallery {
     border-radius: 8px;
     padding: 5px;
     margin: 2em;
-    opacity: 85%;
+    opacity: 100%;
     filter: sepia(0%);
   }
   
   div.gallery:hover {
-    border: 0.3em outset rgb(80, 56, 29);
+    border: 0.4em outset rgb(192, 154, 40);
     opacity: 90%;
     filter: sepia(60%);
   }

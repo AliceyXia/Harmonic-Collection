@@ -157,8 +157,8 @@ div.b{
           justify-content: space-between;
       }
      .flex-box>div{
-        margin: 2em 5em 0em 0em;
-         font-size: 95%;
+        margin: 2em 2em 0em 0em;
+         font-size: 100%;
      }
 
      .row {
