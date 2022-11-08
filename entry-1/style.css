@@ -3,7 +3,7 @@ body{
 }
 
 h1 {
-    color:rgb(192, 154, 40);
+    color:rgb(80, 56, 29);
     font-family:'Courier New', Courier, monospace;
     font-size: 350%;
     margin: 1em;
@@ -24,7 +24,7 @@ h3 {
 }
 
 h5 {
-    color: rgb(80, 56, 29);
+    color: rgb(192, 154, 40);
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     margin: 2em;
