@@ -200,7 +200,7 @@ div.sticky {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    margin: 0.2em;
+    margin: 0em;
     background-color: rgba(248, 246, 239, 0.5);
 
   }
