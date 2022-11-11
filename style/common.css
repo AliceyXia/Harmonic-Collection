@@ -74,7 +74,7 @@ div.a {
 
 div.b {
     transform: rotate(90deg);
-    margin: 0em 50em 0em -5em;
+    margin: 0em 52em 0em -5em;
     width: 100px;
   height: 100px;
   background: transparent;
@@ -89,7 +89,7 @@ div.b:hover {
 
 @media screen and (min-width:741px){
 h1{
-    font-size: 280%;
+    font-size: 290%;
 }
 h2{
     font-size: 200%;
@@ -114,13 +114,13 @@ li{
 
 @media screen and (max-width:740px){
     h1{
-        font-size: 100%;
+        font-size: 110%;
     }
     h2{
         font-size: 130%;
     } 
     h3{
-        font-size: 20%;
+        font-size: 15%;
     }
     h5{
         font-size: 60%;
@@ -167,11 +167,13 @@ div.gallery {
     opacity: 90%;
     filter: sepia(60%);
   }
-  
+
+
   div.gallery img {
     width: 100%;
     height: auto;
   }
+
   
   div.desc {
     padding: 1em;
@@ -206,4 +208,15 @@ div.gallery {
     content: "";
     display: table;
     clear: both;
+  }
+
+  h1:hover{
+    transform: scale(100%);
+    color:  rgb(138, 111, 80);
+    transition: transform 3s;
+  }
+  h3:hover{
+    transform: scale(100%);
+    color:  rgb(145, 119, 42);
+    transition: transform 3s;
   }
