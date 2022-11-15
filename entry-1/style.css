@@ -167,4 +167,36 @@ img{
         background-color: rgba(248, 246, 239, 0.5);
     }
      
+    .fade-in-image {
+        animation: fadeIn 2.5s;
+        -webkit-animation: fadeIn 2.5s;
+        -moz-animation: fadeIn 2.5s;
+        -o-animation: fadeIn 2.5s;
+        -ms-animation: fadeIn 2.5s;
+      }
+      
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      
+      @-o-keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
     /* COLOR USED: light yellowbrown-- rgb(248, 246, 239),light brown--rgb(192, 154, 40),brown--rgb(80, 56, 29),blue--rgb(40, 119, 123)  */

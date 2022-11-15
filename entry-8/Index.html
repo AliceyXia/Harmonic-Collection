@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Landscape</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../file/imgs/favicon.ico">
+    </head>
+<body>
+    <center>
+      
+        <div class="sticky">
+      <h1>
+           Landscape
+           </h1></div>
+           <p>> Art done by Midjourney - <b>Prompt:4k Landscape</b></p>
+           
+           <div class="fade-in-image">
+           <div class="slideshow-container">
+            <div class="mySlides fade">
+              <a onclick="currentSlide(2)">
+              <img src="../file/imgs/land 1.png" style="width:100%"></a>
+            </div>
+            
+            <div class="mySlides fade">
+              <a onclick="currentSlide(3)"> 
+                <img src="../file/imgs/land 2.png" style="width:100%"></a>
+              </div>
+            
+            <div class="mySlides fade">
+              <a onclick="currentSlide(4)"> 
+              <img src="../file/imgs/land 3.png" style="width:100%"></a>
+            </div>
+
+            <div class="mySlides fade">
+              <a onclick="currentSlide(5)"> 
+                <img src="../file/imgs/land 4.png" style="width:100%"></a>
+              </div>
+        
+            <div class="mySlides fade">
+              <a onclick="currentSlide(6)"> 
+                <img src="../file/imgs/land 5.png" style="width:100%"></a>
+              </div>
+              
+            <div class="mySlides fade">
+              <a onclick="currentSlide(7)"> 
+                <img src="../file/imgs/land 6.png" style="width:100%"></a>
+              </div>
+
+            <div class="mySlides fade">
+              <a onclick="currentSlide(8)"> 
+                <img src="../file/imgs/land 7.png" style="width:100%"></a>
+              </div>
+            
+            <div class="mySlides fade">
+              <a onclick="currentSlide(9)"> 
+                <img src="../file/imgs/land 8.png" style="width:100%"></a>
+              </div>
+
+            <div class="mySlides fade">
+              <a onclick="currentSlide(10)"> 
+                <img src="../file/imgs/land 9.png" style="width:100%"></a>
+              </div>
+
+            <div class="mySlides fade">
+              <a onclick="currentSlide(11)"> 
+                <img src="../file/imgs/land 10.png" style="width:100%"></a>
+              </div>
+
+            <div class="mySlides fade">
+              <a onclick="currentSlide(12)"> 
+                <img src="../file/imgs/land 11.png" style="width:100%"></a>
+              </div>
+
+            <div class="mySlides fade">
+                <a onclick="currentSlide(1)"> 
+                  <img src="../file/imgs/land 12.png" style="width:100%"></a>
+                </div>
+            </div>
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span> 
+              <span class="dot" onclick="currentSlide(6)"></span> 
+              <span class="dot" onclick="currentSlide(7)"></span> 
+              <span class="dot" onclick="currentSlide(8)"></span>
+              <span class="dot" onclick="currentSlide(9)"></span>  
+              <span class="dot" onclick="currentSlide(10)"></span> 
+              <span class="dot" onclick="currentSlide(11)"></span> 
+              <span class="dot" onclick="currentSlide(12)"></span> 
+            </div>
+
+
+          
+    </center>
+<hr>
+
+    <h3>⦿ Insight ⦿</h3>
+  
+    <p>
+      Promt:<b>4k Landscape</b>. After living in the city for a long time, I felt it was very nice to look out the window to
+      see some grass and beautiful landscape, then I type in the promt 4k landscape.
+    </p>
+
+
+ 
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        
+    <hr>
+
+  </body>
+  <h3>⦿ Song Inspiration ⦿</h3>
+  <div class="song">
+    <iframe src="https://open.spotify.com/embed/track/5XZcXfoS6IAiErcvGT2qhx?utm_source=generator&theme=0" width="100%" height="180"
+    frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  </div>
+    <hr>
+<footer>
+    <div class="flex-box">
+        <b><h3><a href="../entry-7/Index.html">◀︎◀︎</a></h3></b>
+        <b><h3><a href="../Index.html">⌂</a></h3></b>
+        <b><h3><a href="../entry-9/--">▶︎▶︎</a></h3></b>
+    </div>
+</footer>
+
+  </html>
