@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Rainny Day Watercolor</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../file/imgs/favicon.ico">
+    </head>
+<body>
+    <center>
+      
+        <div class="sticky">
+      <h1>
+           Sketches
+           </h1></div>
+           <p>> Art done by Midjourney - <b>Prompt:Rainny day watercolor</b></p>
+           <div class="fade-in-image">
+           <div class="slideshow-container">
+            <div class="mySlides fade">
+              <a onclick="currentSlide(2)">
+              <img src="../file/imgs/watercolor 1.png" style="width:100%"></a>
+            </div>
+            
+            <div class="mySlides fade">
+              <a onclick="currentSlide(3)"> 
+                <img src="../file/imgs/watercolor2.png" style="width:100%"></a>
+              </div>
+            
+            <div class="mySlides fade">
+              <a onclick="currentSlide(1)"> 
+              <img src="../file/imgs/watercolor3.png" style="width:100%"></a>
+            </div>
+
+            </div>
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+
+
+          
+    </center>
+<hr>
+
+    <h3>⦿ Insight ⦿</h3>
+  
+    <p>
+      Promt:<b>Rainny day watercolor</b>. While walking down the street on a rainy day,
+      I also wonder how AI can portray this scene in watercolor format.
+    </p>
+
+
+ 
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        
+    <hr>
+
+  </body>
+  <h3>⦿ Song Inspiration ⦿</h3>
+  
+  <div class="song">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5z4vmar50qPl80GjIrPBXm?utm_source=generator&theme=0" width="100%" 
+    height="180" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
+    <hr>
+<footer>
+    <div class="flex-box">
+        <b><h3><a href="../entry-9/Index.html">◀︎◀︎</a></h3></b>
+        <b><h3><a href="../Index.html">⌂</a></h3></b>
+        <b><h3><a href="../entry-11/Index.html">▶︎▶︎</a></h3></b>
+    </div>
+</footer>
+
+  </html>

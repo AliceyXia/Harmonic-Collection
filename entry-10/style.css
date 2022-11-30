@@ -1,0 +1,245 @@
+body{ 
+    background-color: rgb(248, 246, 239);
+}
+
+h1 {
+    color:rgb(80, 56, 29);
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 350%;
+    margin: 1em;
+}
+
+h2 {
+    color: rgb(40, 119, 123);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    margin: 1em;
+}
+
+h3 {
+    color: rgb(40, 119, 123);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    margin: 1em;
+}
+
+h5 {
+    color: rgb(192, 154, 40);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    margin: 2em;
+}
+
+p {
+    color: rgb(192, 154, 40);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 110%;
+    margin: 2.5em;
+}
+
+a:link {
+    color: rgb(192, 154, 40);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(80, 56, 29) ;
+    background-color: transparent;
+    text-decoration:underline;
+}
+
+a:hover {
+    color:rgb(192, 154, 40);
+    background-color: transparent;
+     text-decoration:underline;
+    }
+
+a:active {
+    text-decoration: underline;
+     }
+     
+hr{
+        height: 1px;
+        background-color:transparent;
+        border-top: 1px dashed rgb(192, 154, 40) ;  
+    }
+
+ol.c {
+    list-style-type: upper-roman;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(40, 119, 123);
+    font-size: 200%;
+    margin: 5em;
+      }
+
+/* div.a {
+        border: 0px solid white;
+        margin: 40px 0px 20px 0px;
+        background-color: transparent;
+        font-size: 80%;
+      }
+
+div.b{
+    border: 0px solid white;
+    margin: -20px 0px 0px 0px;
+    background-color: transparent;
+    font-size: 80%;
+}    */
+ 
+
+img{ 
+    width: 60%;
+    height:60%;
+    margin: .5em;
+    border: .5em outset rgb(80, 56, 29);
+ }
+
+
+
+ @media screen and (min-width:841px){
+    h1{
+        font-size: 350%;
+    }
+    h2{
+        font-size: 250%;
+    }
+    h3{
+        font-size: 150%;
+    }
+    h5{
+        font-size: 100%;
+    }
+    p{
+        font-size: 110%;
+    }
+    ol.c{
+        font-size: 180%;
+    }
+ 
+    }
+    
+    @media screen and (max-width:840px){
+        h1{
+            font-size: 180%;
+        }
+        h2{
+            font-size: 160%;
+        } 
+        h3{
+            font-size: 100%;
+        }
+        h5{
+            font-size: 60%;
+        }
+        p{
+            font-size: 70%;
+        }
+        ol.c{
+            font-size: 100%;
+        }
+        li{
+            font-size: 100%; 
+        }
+    }
+
+    body,html {
+        margin: 0;
+        background-image: url("../file/imgs/texture.png");
+        height: 100%; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        }
+
+        .flex-box{
+            display:flex;
+            justify-content: space-between;
+        }
+       .flex-box>div{
+          margin: 2em 2em 0em 0em;
+           font-size: 100%;
+       }
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1600px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 0.3em;
+  background-color: rgba(192, 154, 40, 0.54);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgb(80, 56, 29);
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+div.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    margin: 0em;
+    background-color: rgba(248, 246, 239, 0.5);
+
+  }
+
+  .fade-in-image {
+    animation: fadeIn 5.5s;
+    -webkit-animation: fadeIn 5.5s;
+    -moz-animation: fadeIn 5.5s;
+    -o-animation: fadeIn 5.5s;
+    -ms-animation: fadeIn 5.5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+  div.song{
+    margin: 2em 2em 0em 2em;
+  }
+
+    /* COLOR USED: light yellowbrown-- rgb(248, 246, 239),light brown--rgb(192, 154, 40),brown--rgb(80, 56, 29),blue--rgb(40, 119, 123)  */
