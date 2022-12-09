@@ -208,7 +208,7 @@ div.b{
       
       .img-comp-container {
         position: relative;
-        height: 600px; /*same height as the images*/
+        height: 600px;
         border-radius: 8px;
         margin: 1em;
         width: 750px;
@@ -229,7 +229,6 @@ div.b{
         position: absolute;
         z-index:9;
         cursor: ew-resize;
-        /*set the appearance of the slider:*/
         width: 40px;
         height: 40px;
         background-color: rgb(192, 154, 40);
@@ -239,16 +238,11 @@ div.b{
 
       img{ 
         border: .5em outset rgb(80, 56, 29);
-     }
+      }
 
       div.song{
         margin: 2em 2em 0em 2em;
       }
+  
 
-      @media only screen and (max-width: 300px) {
-        .img-comp-container{
-          height:300px;
-          width:300px;
-        }
-      }
     /* COLOR USED: light yellowbrown-- rgb(248, 246, 239),light brown--rgb(192, 154, 40),brown--rgb(80, 56, 29),blue--rgb(40, 119, 123)  */
